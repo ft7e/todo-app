@@ -2,7 +2,7 @@
 
 ## Deployed Project
 
-[todo-app](google.com)
+[todo-app](https://630a8e256be8834b57605d76--starlit-salamander-f2bbd9.netlify.app/)
 
 ## UseForm
 
