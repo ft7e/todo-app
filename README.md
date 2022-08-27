@@ -1,9 +1,9 @@
-# Todo-App
+# todo-app
 
 ## Deployed Project
 
-[Todo App](https://todo-app0.vercel.app/)
+[todo-app](google.com)
 
-## UseForm 
+## UseForm
 
-useForm is a custom hook for managing forms with ease. It takes one object as optional argument. The following example demonstrates all of its properties along with their default values.
+useForm is a custom hook for managing forms with ease. It takes one object as optional argument.
