@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  color: #ef784a;
+  background-color: #c2ded1;
+}
+
+body {
+  background: #c2ded1 100%;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 520px;
+  min-height: 600px;
+  background: #c2ded1;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 1px;
+  padding-bottom: 32px;
+  color: #ef784a;
+}

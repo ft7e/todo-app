@@ -1,0 +1,223 @@
+.text-head {
+  color: #ef784a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #ece5c7;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  border-bottom: 1px solid #ef784a;
+  color: #ef784a;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  label {
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding: 0.5rem 1rem;
+    width: 80%;
+    background-color: #ece5c7;
+  }
+
+  button {
+    cursor: pointer;
+    background-color: #ece5c7;
+
+    &active {
+      background-color: #fff;
+    }
+  }
+}
+
+.show {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #ece5c7;
+  &active {
+    background-color: #989898;
+  }
+}
+span {
+  background-color: #ece5c7;
+}
+.list-continuer {
+  display: inline-block;
+  width: 500px;
+  margin-left: 11px;
+
+  .items {
+    padding: 2px;
+    margin-top: 5px;
+    border-bottom: 3px solid #a34444;
+    height: 175px;
+
+    .btn-list {
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 15px;
+
+      button {
+        background-color: #ece5c7;
+        cursor: pointer;
+        outline: none;
+        width: 25px;
+        height: 30px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .p-text {
+      border: 1px solid #989898;
+      margin: 5px;
+      padding: 10px;
+      justify-content: flex-start;
+      align-items: center;
+      color: #ef784a;
+      background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+
+      .p-holder {
+        display: flex;
+        flex-direction: row;
+
+        .p-assigned {
+          border: 1px solid #ece5c7;
+          margin: 5px;
+          padding-left: 8px;
+          justify-content: flex-start;
+          align-items: center;
+          color: #ef784a;
+          width: 50%;
+          display: flex;
+          background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+        }
+        small {
+          background-color: #ece5c7 !important;
+        }
+        .p-difficulty {
+          border: 1px solid #ece5c7;
+          margin: 5px;
+          padding-left: 8px;
+          justify-content: flex-start;
+          align-items: center;
+          color: #ef784a;
+          display: flex;
+          width: 50%;
+          background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+        }
+      }
+    }
+
+    .checkbox {
+      display: flex;
+      padding: 4px;
+      justify-content: flex-start;
+      align-items: center;
+      color: #ef784a;
+      input {
+        margin-right: 5px;
+        background-color: #cdc2ae;
+      }
+    }
+  }
+}
+.items-complete {
+  padding: 10px;
+  margin: 5px;
+  border-bottom: 3px solid #5e5b5b;
+  .btn-list-complete {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 15px;
+    button {
+      cursor: pointer;
+      outline: none;
+      width: 25px;
+    }
+  }
+
+  .p-text-complete {
+    border: 1px solid #ece5c7;
+    margin: 5px;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ef784a;
+    background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+
+    .p-holder-complete {
+      display: flex;
+      flex-direction: row;
+
+      .p-assigned-complete {
+        border: 1px solid #989898;
+        margin: 5px;
+        padding-left: 8px;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ef784a;
+        width: 50%;
+        display: flex;
+        background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+      }
+
+      .p-difficulty-complete {
+        border: 1px solid #ece5c7;
+        margin: 5px;
+        padding-left: 8px;
+        justify-content: flex-start;
+        align-items: center;
+        color: #ef784a;
+        display: flex;
+        width: 50%;
+        background: linear-gradient(90deg, #ece5c7 0%, #ece5c7 100%);
+      }
+    }
+  }
+
+  .checkbox-complete {
+    display: flex;
+    padding: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ef784a;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5px;
+  margin-left: 5px;
+}
+
+.p-complete {
+  color: #ef784a;
+  margin-top: 2px;
+}
